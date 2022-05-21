@@ -74,7 +74,7 @@ def Main():
             mod = myNN.loadCNN(0)
             break
         else:
-            print "Your face is so ugly ,even my code does not want to see u!!"
+            print "Video capture not happening"
             return 0
 
     cap = cv2.VideoCapture(0)
